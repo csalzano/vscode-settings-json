@@ -1,0 +1,34 @@
+{
+    //disable usage data sending to third parties
+    "telemetry.enableTelemetry": false,
+    "intelephense.telemetry.enabled": false,
+
+    //i like this theme
+    "workbench.colorTheme": "Flatland_Dark", 
+
+    //tabs not spaces
+    "editor.insertSpaces": false,
+    "editor.fontSize": 15,
+
+    //guides
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#212121"
+    },
+    "window.zoomLevel": 0,
+
+    // The path to a PHP 7+ executable.
+    "php.executablePath": "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+
+    // Points to the PHP executable.
+    "php.validate.executablePath": "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "extensions.ignoreRecommendations": true
+}
