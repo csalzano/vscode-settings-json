@@ -1,14 +1,13 @@
 {
     //disable usage data sending to third parties
     "telemetry.enableTelemetry": false,
-    "intelephense.telemetry.enabled": false,
 
     //i like this theme
     "workbench.colorTheme": "Flatland_Dark", 
 
     //tabs not spaces
     "editor.insertSpaces": false,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14, //Windows 16
 
     //guides
     "editor.rulers": [
@@ -21,10 +20,10 @@
     "window.zoomLevel": 0,
 
     // The path to a PHP 7+ executable.
-    "php.executablePath": "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+    "php.executablePath": "/usr/local/Cellar/php/7.4.0/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
 
     // Points to the PHP executable.
-    "php.validate.executablePath": "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+    "php.validate.executablePath": "/usr/local/Cellar/php/7.4.0/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
     "launch": {
 
         "configurations": [],
