@@ -1,13 +1,22 @@
 {
     //disable usage data sending to third parties
-    "telemetry.enableTelemetry": false,
+	"telemetry.telemetryLevel": "off",
 
-    //i like this theme
+	//don't restore all windows after reboots
+	"window.restoreWindows": "none",
+
     "workbench.colorTheme": "Flatland_Dark", 
 
     //tabs not spaces
     "editor.insertSpaces": false,
     "editor.fontSize": 14, //Windows 16
+
+	"editor.copyWithSyntaxHighlighting": false,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[plaintext]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 
     //guides
     "editor.rulers": [
@@ -16,18 +25,58 @@
     ],
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#212121"
-    },
-    "window.zoomLevel": 0,
+	},
 
     // The path to a PHP 7+ executable.
-    "php.executablePath": "/usr/local/Cellar/php/7.4.0/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+    "php.executablePath": "/usr/local/Cellar/php/8.0.12/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
 
     // Points to the PHP executable.
-    "php.validate.executablePath": "/usr/local/Cellar/php/7.4.0/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
+    "php.validate.executablePath": "/usr/local/Cellar/php/8.0.12/bin/php", // Windows "C:\\MAMP\\bin\\php\\php7.2.10\\php.exe",
     "launch": {
 
         "configurations": [],
         "compounds": []
     },
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+
+    //"phpSniffer.autoDetect": true,
+    //"phpSniffer.executablesFolder": "/Users/Prytania/.composer/vendor/squizlabs/php_codesniffer/bin",
+	"editor.detectIndentation": false,
+	"explorer.confirmDelete": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.banner": "never",
+	"editor.accessibilitySupport": "off",
+    //"phpSniffer.standard": "C:\\path\\to\\my\\.phpcs.xml"
+
+	"phpcs.enable": true,
+	"phpcs.executablePath": "/Users/Prytania/.composer/vendor/bin/phpcs",
+	"phpcs.standard": "WordPress",
+	"phpcs.autoConfigSearch": false,
+	"phpcbf.enable": true,
+	"phpcbf.documentFormattingProvider": true,
+	"phpcbf.onsave": false,
+	"phpcbf.executablePath": "/Users/Prytania/.composer/vendor/bin/phpcbf",
+	"phpcbf.standard": "WordPress",
+	"[php]": {
+		"editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+	},
+	"files.eol": "\n",
+	"git.openRepositoryInParentFolders": "never",
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"workbench.startupEditor": "none",
+	"window.zoomLevel": 1,
+	"task.quickOpen.history": 5,
+
+	/* Alt + \ to trigger when this is false. */
+	"github.copilot.editor.enableAutoCompletions": true,
+
+	/* minimap is the scrollbar zoomed-out version of the current file */
+	"editor.minimap.renderCharacters": true,
+	"workbench.editorAssociations": {
+		"*.copilotmd": "vscode.markdown.preview.editor",
+		"{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
+	},
+
 }
