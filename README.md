@@ -6,8 +6,8 @@ Visual Studio Code user settings
 
 ### Repo
 
-/Users/Prytania/Dropbox/WordPress/vscode-settings-json
+/Users/Corey/Dropbox/WordPress/vscode-settings-json
 
 ### Actual
 
-/Users/Prytania/Library/Application Support/Code/User
+/Users/Corey/Library/Application Support/Code/User
